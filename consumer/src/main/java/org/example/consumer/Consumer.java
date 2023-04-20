@@ -69,14 +69,6 @@ public class Consumer {
         }
         return null;
 
-//        Set<Class> result =  ClassPath.from(ClassLoader.getSystemClassLoader())
-//                .getAllClasses()
-//                .stream()
-//                .filter(clazz -> clazz.getPackageName().equalsIgnoreCase(packageName))
-//                .map(clazz -> clazz.load())
-//                .collect(Collectors.toSet());
-//        return result;
-
 
     }
 
